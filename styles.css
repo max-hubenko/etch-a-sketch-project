@@ -1,0 +1,117 @@
+html, body {
+    background-color: lightslategrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* Set the height to 100% of the viewport height */
+    width: 100%; /* Set the width to 100% of the viewport width */
+    margin: 0; /* Remove any default margin */
+    padding: 0; /* Remove any default padding */
+  }
+  
+  .header {
+    background-color: lightslategrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50%; /* Set the height to 50% of the viewport height */
+    width: 65%; /* Set the width to 65% of the viewport width */
+    margin: 0; /* Remove any default margin */
+    padding: 0;
+  }
+  
+  h1 {
+    font-family: "Brush Script MT";
+    font-size: 300%;
+    margin-bottom: 20px;
+    height: 10%;
+  }
+  
+  button {
+    margin-top: 2%;
+    text-decoration: none;
+    border: none;
+    padding: 12px 35px;
+    font-size: 16px;
+    background-color: gray;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 5%;
+  }
+  
+  #color-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(100, 97, 97);
+    margin-top: 10px;
+    border: 5px solid rgb(0, 0, 0);
+    margin-bottom: 10px;
+    height: 5%;
+    width: 60%;
+    min-height: 8%;
+  }
+
+  .colorbox {
+    cursor: pointer;
+    background-color: white;
+    width: 3%;
+    aspect-ratio: 1;
+    padding: 5px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
+
+  #red {
+    background-color: red;
+  }
+  #blue {
+    background-color: blue;
+  }
+  #green {
+    background-color: green;
+  }
+
+  #yellow {
+    background-color: yellow;
+  }
+
+  #black {
+    background-color: black;
+  }
+
+  #indigo {
+    background-color: indigo;
+  }
+
+  #orange {
+     background-color: orange;
+  }
+
+  #violet {
+    background-color: violet;
+  }
+  
+  #JSContainer {
+    display: flex;
+    border: 5px solid black;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 60%;
+    aspect-ratio: 1;
+  }
+  
+  .grid-item {
+    outline: 1px solid black;
+    flex: 1 0 6.25%;
+    aspect-ratio: 1;
+    margin: 0;
+    background-color: white;
+  }
+  
